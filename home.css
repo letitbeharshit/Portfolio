@@ -875,7 +875,29 @@ form textarea {
 }
 
 @media (max-width:395px) {
+    .home {
+        position: relative;
+        height: 100%;
+        background-image: url(Untitled\ design\ \(3\).png);
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-size: cover;
+        width: 100%;
+    }
 
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
     #nw {
         width: 85%;
         display: flex;
@@ -938,6 +960,29 @@ form textarea {
         margin-left: 10px;
         font-size: 13px;
     }
+    .home {
+        position: relative;
+        height: 100%;
+        background-image: url(Untitled\ design\ \(3\).png);
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
     .box {
         box-sizing: content-box;
@@ -988,7 +1033,29 @@ form textarea {
         margin-left: 0px;
         font-size: 11px;
     }
+    .home {
+        position: relative;
+        height: 100%;
+        background-image: url(Untitled\ design\ \(3\).png);
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-size: cover;
+        width: 100%;
+    }
 
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 @media (max-width:290px) {
