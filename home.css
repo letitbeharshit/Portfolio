@@ -786,6 +786,13 @@ form textarea {
         display: flex;
         flex-direction: column;
     }
+    .btn {
+        margin-right: 0;
+        margin-left: 50px;
+    }
+    #menu-icon {
+        display: block;
+    }
 
     .career-content {
         display: flex;
@@ -833,6 +840,9 @@ form textarea {
         margin-left: 3px;
     }
 
+    #menu-icon {
+        display: block;
+    }
     .contact-form .submit:hover {
         transform: translateX(3px);
         cursor: pointer;
@@ -869,7 +879,7 @@ form textarea {
 
     .btn {
         margin-right: 0;
-        margin-left: 120px;
+        margin-left: 50px;
     }
 
 }
@@ -886,6 +896,9 @@ form textarea {
         justify-content: flex-start;
         background-size: cover;
         width: 100%;
+    }
+    #menu-icon {
+        display: block;
     }
 
     .home::before {
@@ -912,7 +925,7 @@ form textarea {
 
     .btn {
         margin-right: 0;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     #btn {
@@ -959,6 +972,15 @@ form textarea {
         text-align: center;
         margin-left: 10px;
         font-size: 13px;
+    }
+
+    .btn {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    #menu-icon {
+        display: block;
     }
     .home {
         position: relative;
@@ -1033,6 +1055,13 @@ form textarea {
         margin-left: 0px;
         font-size: 11px;
     }
+    .btn {
+     
+        margin-left: 1px;
+    }
+    #menu-icon {
+        display: block;
+    }
     .home {
         position: relative;
         height: 100%;
@@ -1078,6 +1107,9 @@ form textarea {
         justify-content: flex-start;
         background-size: cover;
         width: 100%;
+    }
+    #menu-icon {
+        display: block;
     }
 
     .home::before {
